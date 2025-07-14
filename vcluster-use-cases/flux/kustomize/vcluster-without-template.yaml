@@ -45,7 +45,11 @@ spec:
     accessPoint:
       ingress: {}
     spaceTemplate:
-      metadata: {}
+      metadata:
+        annotations:
+          field.cattle.io/projectId: local:p-jclhq
+        labels:
+          field.cattle.io/projectId: p-jclhq
       objects: |-
         ---
         apiVersion: kustomize.toolkit.fluxcd.io/v1
