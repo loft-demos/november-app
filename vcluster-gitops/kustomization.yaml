@@ -18,7 +18,6 @@ resources:
 - project-secrets/argocd-notifications-secret.yaml
 - virtual-cluster-instances/vcluster-instances.yaml
 - apps/argo-cd-pr-application-set.yaml
-- virtual-cluster-templates/pull-request-vcluster.yaml
 - argocd/app-of-apps.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
