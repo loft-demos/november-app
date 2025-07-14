@@ -30,7 +30,7 @@ spec:
 
         exportKubeConfig:
           context: loft
-          server: https://vcluster-deployed-with-flux.vcluster-flux-demo-v-vcluster-deployed-with-flux:443
+          server: https://flux-vcluster.vcluster-flux-demo-v-vcluster-deployed-with-flux:443
           secret:
             name: vcluster-flux-kubeconfig
 
