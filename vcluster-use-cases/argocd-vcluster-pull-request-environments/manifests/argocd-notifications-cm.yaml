@@ -5,10 +5,10 @@ metadata:
   namespace: argocd
 data:
   context: |
-    argocdUrl: https://argocd-{REPLACE_VCLUSTER_NAME}.us.demo.dev
+    argocdUrl: https://argocd-november.us.demo.dev
   # Define the webhook service for vCluster Platform
   service.webhook.vcluster-platform: |
-    url: https://{REPLACE_VCLUSTER_NAME}.us.demo.dev
+    url: https://november.us.demo.dev
     headers:
     - name: Authorization
       value: "Bearer $accessKey"
