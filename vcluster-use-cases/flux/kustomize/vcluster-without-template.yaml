@@ -1,7 +1,7 @@
 kind: VirtualClusterInstance
 apiVersion: management.loft.sh/v1
 metadata:
-  name: vcluster-deployed-with-flux
+  name: flux-vcluster
   namespace: p-vcluster-flux-demo
 spec:
   displayName: vCluster Deployed with Flux
