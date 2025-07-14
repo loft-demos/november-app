@@ -44,7 +44,6 @@ spec:
           field.cattle.io/projectId: local:p-jclhq
         labels:
           field.cattle.io/projectId: p-jclhq
-      objects: {}
   clusterRef:
     cluster: loft-cluster
   access:
